@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="body-header">
+        <nav>
+            <div class = "dropdown-menu text-right">
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class ="dropdown-list nav-menu">
+                    <ul class = "no-list-style">
+                        <li >
+                            <a href="#"> Home </a>
+                        </li>
+                        <li>
+                            <a href="#about"> About </a>
+                        </li>
+                        <li>
+                            <a href="#skills"> Skills </a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+
+             </div>   
+
+            <ul class="no-list-style horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Usaid Rashid</h1>
+            </div>
+            <div>
+                <ul class="no-list-style horizontal-list text-center social-icons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/usaidrashid/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/itz_crzy_usaid/">
+                            <i class="fa-brands">
+                                <img id="insta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/1200px-Instagram.svg.png" height="18px" width="18px" alt="" srcset="">
+                            </i>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/usaid.rashid.77">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://leetcode.com/usaid786/">
+                            <i class="fa-solid">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png" height="18px" width="18px" alt="" srcset="">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://codeforces.com/profile/usaid786">
+                            <i class="fa-solid">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFtDsTEfs3adnrB-FjulnTaSH6mMoP_7ea_g&usqp=CAU" height="18px" width="18px" alt="" srcset="">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.codechef.com/users/usaid786">
+                            <i class="fa-solid">
+                                <img src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/zruiknbedz8yqafxbazb" height="15px" width="20px" alt="" srcset="">
+                            </i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://auth.geeksforgeeks.org/user/usaid786/practice">
+                            <i class="fa-solid">
+                                <img src="data:image/png;base64,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" height="15px" width="20px" alt="" srcset="">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.codingninjas.com/studio/profile/fad88b71-f900-493f-b8ae-7fef3f314000">
+                            <i class="fa-solid">
+                                <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png" height="15px" width="20px" alt="" srcset="">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/UsaidRashid">
+                            <i class="fa-brands">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/GitHub_font_awesome.svg/1024px-GitHub_font_awesome.svg.png" height="18px" width="18px" alt="" srcset="">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="https://gdurl.com/wpWX" alt="" srcset="">
+            </div>
+
+            <div id="about-para">
+                <p>
+                    Greetings, I am Usaid Rashid, <br>
+                    I belong from Agra,Uttar Pradesh,India. <br>
+                    I am pursuing B.Tech from Anand Engineering College Agra and is currently in 3rd year of my B.Tech journey. <br>
+                    So far , I have worked a lot enhancing my skills whether it is in the field of Competitive Coding or learning a particular domain. <br>
+                    Bagging 4 stars at Codechef and higher ratings at Codeforces & Leetcode too , I have been coding on a number of platforms like Coding Ninjas and Geeks for Geeks securing a rank in top 25 of our College ever. <br>
+                    <br><br>
+                    Please refer to my github account mentioned above for my projects ,I have a lot to show &smile;
+                    <br>
+                    Apart from my Competive journey , I learnt a lot in other domains acquring as much skillset as possible which are mentioned in my resume below...
+                </p>
+            </div>
+
+        </section>
+
+
+
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+                <div class="skill-progress">
+                    <div class="ninety-percent mb-blue">
+                        <div class="skill-name">
+                            <span> C++ </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="seventy-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> C </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="mb-blue seventy-five-percent ">
+                        <div class="skill-name">
+                            <span> Python </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="sixty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> Java </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-five-percent mb-orange">
+                        <div class="skill-name">
+                            <span> HTML </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> CSS </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Javascript </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> NodeJs </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-black" id="fifty-percent">
+                        <div class="skill-name">
+                            <span> ExpressJs </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="sixty-percent mb-msg">
+                        <div class="skill-name">
+                            <span> ReactJs </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="sixty-percent mb-sienna">
+                        <div class="skill-name">
+                            <span> MongoDB </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="sixty-percent mb-tomato">
+                        <div class="skill-name">
+                            <span> MySQL </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="seventy-five-percent mb-lgry">
+                        <div class="skill-name">
+                            <span> Android Studio </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-lime">
+                        <div class="skill-name">
+                            <span> QT GUI for C++ </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-dmag">
+                        <div class="skill-name">
+                            <span> TKInter GUI for python </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="thirty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> AI/ML Basics </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-black">
+                        <div class="skill-name">
+                            <span> Unity </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span> Work Experience </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> Internpe </h4>
+                        <h5 class="experience-duration m0"> May 2023 - June 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            This was my first Internship. It mainly focused on enhancing my skills further in C++.
+                            During this internship , I made a number of projects with C++ which helped me a lot to gain experience as well as work ethics in a company. <br>
+                            <a href="https://mail.google.com/mail/u/0?ui=2&ik=fad831fe05&attid=0.1&permmsgid=msg-f:1767513157321052983&th=188777da15f35337&view=att&disp=safe&realattid=f_lid9pb1j0"">COMPLETION CERITIFICATE</a>
+                         </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        
+                        <h4 class="experience-company-name"> Gao Tek </h4>
+                        <h5 class="experience-duration m0"> May 2023 - June 2023 </h5>
+                        <p class="experience-description text-justify"> 
+                            This was the second internship i was a part of , I managed it parallelly with the first one.
+                            Though they didnt let me have any tech knowledge , this company basically was focused for marketing intern so giving me further experience in marketing domain <br>
+                         </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> CodSoft </h4>
+                        <h5 class="experience-duration m0"> July 2023 - August 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            A month full of internships , starting with Cod soft , July had been the busiest month of my journey of internships.
+                            In this internship too, i mainly focused on C++ , made a lot of projects and concluded the internship successfully <br>
+                            <a href="https://rumankolkata99-dot-sunlit-flag-389813.uc.r.appspot.com/?c=1Spovbi7Fpw8mLziRk9KopeN2mMgEqHMLCzB79HVJtwQ&q=1647104433&r=1898df55fc5837b4&z=1690303815752&o=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1cmGTx5y07Vn6tB09qtE3Xk1NoLzz-ziP%2Fview%3Fusp%3Ddrivesdk">OFFER LETTER</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> Code Alpha </h4>
+                        <h5 class="experience-duration m0"> July 2023 - August 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            This was my second internship of July 2023 , it mainly focused on Python
+                            In this internship, i made a lot of projects with python and its libraries thereby gaining a lot of experience in the field and successfully completing the internship in August <br>
+                            <a href="https://drive.google.com/drive/folders/1wGg-X8NuZi5m140PGKl_SKtBE4Oj-jQP?usp=sharing">OFFER LETTER</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> Code Clause </h4>
+                        <h5 class="experience-duration m0"> August 2023 - September 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            In Code Clause ,  I did internships in 4 domains parallelly:
+                            <br>
+                                Artificial Intelligence
+                                    <a href="https://mail.google.com/mail/u/0?ui=2&ik=fad831fe05&attid=0.1&permmsgid=msg-f:1772778784811032465&th=189a2ce986029f91&view=att&disp=inline">OFFER LETTER</a>
+                                <br>
+                                    Java Development
+                                    <a href="https://mail.google.com/mail/u/0?ui=2&ik=fad831fe05&attid=0.1&permmsgid=msg-f:1781547260496193216&th=18b953cb5c7226c0&view=att&disp=inline&realattid=18b953c6c224d10c7ae1">OFFER LETTER</a>
+                                <br>
+                                Web Development
+                                    <a href="https://mail.google.com/mail/u/0?ui=2&ik=fad831fe05&attid=0.1&permmsgid=msg-f:1781547166670699624&th=18b953b58402bc68&view=att&disp=inline&realattid=18b953b09c64d10c7ae1">OFFER LETTER</a>
+                                    <br>
+                                Python Development
+                                    <a href="https://mail.google.com/mail/u/0?ui=2&ik=fad831fe05&attid=0.1&permmsgid=msg-f:1781547200218375297&th=18b953bd539ba481&view=att&disp=inline&realattid=18b953b8f684d10c7ae1">OFFER LETTER</a>
+                            <br>
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> Let's Grow More </h4>
+                        <h5 class="experience-duration m0"> August 2023 - September 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            In August , this was the second company i was a part of and it also offered me 2 internships parallelly namely: <br>
+                            JAVA Development <a href="https://docs.google.com/spreadsheets/d/1j4gCM42jZevxRuPiU6ZMfC_J0bKnA_ce0AzrSdR3b0A/edit?usp=sharing">OFFER LETTER</a> <br>
+                            Web Development <a href="https://docs.google.com/spreadsheets/d/19HMZPHvYSa4fVXSzrIcrpiiLci8QpM-EL7ar0S0Dm6M/edit#gid=0">OFFER LETTER</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> OctaNet </h4>
+                        <h5 class="experience-duration m0"> August 2023 - September 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            In August , this was the third company i was a part of and it also offered me internship in the domain of Web Development <br>
+                            Though , i dont have the link of the offer letter , they provided it to me offline ...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <h4 class="experience-company-name"> Bharat Intern </h4>
+                        <h5 class="experience-duration m0"> August 2023 - September 2023 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            This was my last internship of August 2023 , but this was one of the best one for me , as i got the internship of the domain i wanted i.e Full Stack Development. <br>
+                            During this internship i worked on a project in this company and also learnt a lot in the backend part as well thereby it proved me beneficial for my future projects too...
+                            <br>
+                            <a href="https://mail.google.com/mail/u/0?ui=2&ik=fad831fe05&attid=0.1&permmsgid=msg-f:1773681696358029123&th=189d621b00085743&view=att&disp=inline">OFFER LETTER</a>
+        
+                        </p>
+                    </div>
+                </div>
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="education">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-graduation-cap"></i>
+                </span>
+                <span> Education </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> ICSE Boards 10th </h3>
+                        <h4 class="experience-company-name "> St. Peter's College , Agra </h4>
+                        <h5 class="experience-duration m0"> 2017 </h5>
+                        <p class="experience-description text-justify">
+                            During my 10th class,  I was one of the most brilliant student of our class , securing a lot in academics and had a lot of dreams <br>
+                            I bagged 90% in class 10th and was fully prepared to prepare for JEE Exams for an IIT or NIT.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> CBSE Boards 12th </h3>
+                        <h4 class="experience-company-name "> C.R. OASIS Senior Convent School Delhi </h4>
+                        <h5 class="experience-duration m0"> 2019 </h5>
+                        <p class="experience-description text-justify"> 
+                            One of the worst phases of my life, my downfall period in which i suffered a lot.
+                            <br>
+                            After 10th I came to Delhi , FIITJEE for JEE preparations as i heard a lot about it for JEE Preparations.
+                            But this proved me wrong and i couldnt focus much on my academics thereby got poor results and having only 60% in my class 12th.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> B.Tech CSE </h3>
+                        <h4 class="experience-company-name "> Anand Engineering College, Agra </h4>
+                        <h5 class="experience-duration m0"> 2021-2025 </h5>
+
+                        <p class="experience-description text-justify"> 
+                            Having nothing to lose,  I really rose here and did a lot of hard work and gave my best in academics and developed a lot in this phase. <br>
+                            I managed to secure SGPAs around 8 every semester and also learned a lot of skills to become job ready and participated in a number of coding competetions as well securing first rank from our college twice and also got some goodies as a token of appreciation from the company who conducted it <br>
+                            In this phase I had one slogan : "URGE TO BE THE BEST" &hearts;
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-th-list"></i>
+                </span>
+                <span> Portfolio Page : </span>
+                <a href="./Portfolio/portfolio.html">Gooooo</a>
+
+            </h1>
+
+            
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+
+                    <h3> Get In touch </h3>
+                    <p> Though the form will not work , am giving basic details about how to contact me apart from the profile links i mentioned above </p>
+
+                    <h3> My Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Agra, Uttar Pradesh,India PIN:282002</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>9315000139</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>rashidusaid2@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="no-list-style horizontal-list">
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/usaidrashid/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/itz_crzy_usaid/">
+                                <i class="fa-brands">
+                                    <img id="insta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/1200px-Instagram.svg.png" height="18px" width="18px" alt="" srcset="">
+                                </i>
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/usaid.rashid.77">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
